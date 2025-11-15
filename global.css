@@ -13,26 +13,13 @@ a{
     color: white;
 }
 
-.pluses{
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-
-    .article{
-        display: flex;
-        gap: 24px;
-    }
-    .number{
-
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-
-    color: #FFFFFF;
-        padding: 38px 16px;
-        border-right: 1px solid #FFFFFF;
-
-    }
-
-    .text
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 1200px;
+  width: 100%;
+}
+*{
+    box-sizing: border-box;
 }
