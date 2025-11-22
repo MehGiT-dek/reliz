@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
   background-color: brown;
   margin: 0;
@@ -13,12 +15,18 @@ a {
   text-decoration: none;
   color: white;
 }
-
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+header {
+  padding: 10px 0;
+  color: white;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  h1 {
+    margin: 0;
+  }
 }
 
 .row {
