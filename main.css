@@ -96,3 +96,8 @@ width: 80%;
   padding: 35px;
   align-items: center;
 }
+.products_info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
