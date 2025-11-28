@@ -396,3 +396,36 @@ footer {
   border: #365c00 1px double;
   transition: 0.3s;
   }
+  .sh1btn {
+    background-color: #589304;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+  }
+  .sh1btn:hover {
+    background-color: #365c00;
+    width: 150px;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+  }
+  .discount:hover {
+    font-size: 40px;
+    color: #ff0000;
+    transition: 0.3s ease-in-out;
+  }
+  .shun:hover {
+    font-size: 18px;
+    color: #ff6666;
+    transition: 1.0s ease-in-out;
+  }
+  .prdct_text {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  margin: 15px 0;
+  color:#365c00;
+  }
