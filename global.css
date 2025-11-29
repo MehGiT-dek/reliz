@@ -62,3 +62,10 @@ img {
     }
   }
 }
+.menu-btn {
+  display: none;
+  cursor: pointer;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
