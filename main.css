@@ -378,9 +378,6 @@ footer {
     padding: 20px 10px;
     background-position: center;
   }
-  nav {
-    display: none !important;
-  }
   .col-8,
   .col-4 {
     width: 100% !important;
