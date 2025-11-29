@@ -344,6 +344,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .shares {
+    padding: 0 20px;
+  }
   .features-grid {
     flex-direction: column;
     align-items: center;
@@ -372,10 +375,22 @@ footer {
     background-size: cover;
     font-size: 20px;
     width: 100%;
+    padding: 20px 10px;
+    background-position: center;
   }
   nav {
-    display: none!important;
-}
+    display: none !important;
+  }
+  .col-8,
+  .col-4 {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .shares .col-4 img {
+    width: 100%;
+    height: auto;
+  }
 }
 .products__btn {
   display: flex;
@@ -385,7 +400,6 @@ footer {
   background-color: peru;
   color: #fff;
   font-family: 'Open Sans';
-  
 }
 .products__btn:hover {
   display: flex;
@@ -395,37 +409,37 @@ footer {
   height: 50px;
   border: #365c00 1px double;
   transition: 0.3s;
-  }
-  .sh1btn {
-    background-color: #589304;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    font-family: 'Open Sans';
-  }
-  .sh1btn:hover {
-    background-color: #365c00;
-    width: 150px;
-    height: 40px;
-    transition: 0.5s ease-in-out;
-  }
-  .discount:hover {
-    font-size: 40px;
-    color: #ff0000;
-    transition: 0.3s ease-in-out;
-  }
-  .shun:hover {
-    font-size: 18px;
-    color: #ff6666;
-    transition: 1.0s ease-in-out;
-  }
-  .prdct_text {
+}
+.sh1btn {
+  background-color: #589304;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Open Sans';
+}
+.sh1btn:hover {
+  background-color: #365c00;
+  width: 150px;
+  height: 40px;
+  transition: 0.5s ease-in-out;
+}
+.discount:hover {
+  font-size: 40px;
+  color: #ff0000;
+  transition: 0.3s ease-in-out;
+}
+.shun:hover {
+  font-size: 18px;
+  color: #ff6666;
+  transition: 1s ease-in-out;
+}
+.prdct_text {
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 16px;
   margin: 15px 0;
-  color:#365c00;
-  }
+  color: #365c00;
+}
