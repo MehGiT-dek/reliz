@@ -1,0 +1,31 @@
+.main {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.construction-icon {
+  font-size: 120px;
+  margin: 40px 0;
+  color: #864b02;
+}
+
+.message {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  background-color: #864b02;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.back-btn:hover {
+  opacity: 0.9;
+}
