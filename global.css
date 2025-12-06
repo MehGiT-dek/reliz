@@ -69,3 +69,10 @@ img {
     display: block;
   }
 }
+
+.nav {
+  display: flex;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
