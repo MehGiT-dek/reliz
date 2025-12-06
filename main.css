@@ -440,3 +440,8 @@ footer {
   margin: 15px 0;
   color: #365c00;
 }
+.no_wifi {
+  align-items: center;
+  margin: auto;
+  max-width: 300px;
+}
