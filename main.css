@@ -23,7 +23,7 @@ header {
 
   .share1 img {
     max-width: 100%;
-    background: url('./img/DSC09632 2.png') center/cover no-repeat;
+    background: url("./img/DSC09632 2.png") center/cover no-repeat;
     box-shadow: 6px 6px 7px rgba(54, 92, 0, 0.2);
     border-radius: 16px;
     position: relative;
@@ -57,7 +57,7 @@ header {
     height: 152px;
   }
   .sh1text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: 500;
     font-weight: 900;
     font-size: 30px;
@@ -207,7 +207,7 @@ header {
 }
 
 .why-list li::before {
-  content: '🍃';
+  content: "🍃";
   position: absolute;
   left: 0;
   top: 0;
@@ -392,22 +392,23 @@ footer {
 .products__btn {
   display: flex;
   justify-content: center;
-  width: 80px;
-  height: 30px;
+  min-width: 80px;
+  min-height: 30px;
   background-color: peru;
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 .products__btn:hover {
   display: flex;
   justify-content: center;
   background-color: #7e5d03;
-  width: 100px;
-  height: 50px;
+  min-width: 100px;
+  min-height: 50px;
   border: #365c00 1px double;
   transition: 0.3s;
 }
-.sh1btn {
+.sh1btn,
+.products__btn {
   background-color: #f9ba53;
   color: #ffffff;
   border: none;
@@ -415,9 +416,10 @@ footer {
   padding: 10px 20px;
   font-size: 14px;
   cursor: pointer;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
-.sh1btn:hover {
+.sh1btn:hover,
+.products__btn:hover {
   background-color: #523502;
   width: 150px;
   height: 40px;
@@ -434,7 +436,7 @@ footer {
   transition: 1s ease-in-out;
 }
 .prdct_text {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 600;
   font-size: 16px;
   margin: 15px 0;
