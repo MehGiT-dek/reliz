@@ -5,9 +5,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-a {
+a,
+button {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
+  &:hover {
+    color: lightgray;
+    transition: 0.5s;
+  }
 }
 header {
   padding: 10px 0;
@@ -93,4 +99,10 @@ img {
       }
     }
   }
+}
+
+.products__card:hover {
+  transform: scale(0.95);
+  box-shadow: 0 4px 8px #b48130;
+  transition: 0.3s;
 }

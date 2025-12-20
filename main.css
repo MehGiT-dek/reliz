@@ -116,6 +116,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 33%;
   min-height: 400px;
+  text-align: center;
   .overlay {
     position: absolute;
     width: 100%;
@@ -377,6 +378,9 @@ footer {
     width: 100%;
     padding: 20px 10px;
     background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+    text-align: center;
   }
   .col-8,
   .col-4 {
@@ -397,13 +401,13 @@ footer {
   background-color: peru;
   color: #fff;
   font-family: "Open Sans";
+  transition: 0.3s;
 }
 .products__btn:hover {
   display: flex;
   justify-content: center;
   background-color: #7e5d03;
   min-width: 100px;
-  min-height: 50px;
   border: #365c00 1px double;
   transition: 0.3s;
 }
@@ -425,6 +429,9 @@ footer {
   height: 40px;
   transition: 0.5s ease-in-out;
 }
+.discount {
+  cursor: pointer;
+}
 .discount:hover {
   font-size: 40px;
   color: #ff0000;
@@ -441,9 +448,14 @@ footer {
   font-size: 16px;
   margin: 15px 0;
   color: #365c00;
+  text-transform: capitalize;
 }
 .no_wifi {
   align-items: center;
   margin: auto;
   max-width: 300px;
+}
+
+.blog .row {
+  gap: 60px;
 }

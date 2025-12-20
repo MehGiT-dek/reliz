@@ -1,6 +1,13 @@
-const menuBtn = document.querySelector('.menu-btn');
-const nav = document.querySelector('header .nav');
+const menuBtn = document.querySelector(".menu-btn");
+const nav = document.querySelector("header .nav");
 
-menuBtn.addEventListener('click', () => {
-  nav.classList.toggle('active');
+menuBtn.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
+
+const productsBtn = document.querySelectorAll(".products__btn");
+productsBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    alert("Товар додано до кошика!");
+  });
 });
