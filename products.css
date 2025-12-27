@@ -1,17 +1,44 @@
 .new-price {
-    color: #000000;
+  color: #000000;
 }
 .new-price:hover {
-    color: #830000;
-    transition: 0.5 s ease-in-out;
+  color: #830000;
+  transition: 0.5 s ease-in-out;
 }
 .add-cart-btn {
-    background-color: #ff6600;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    font-family: 'Open Sans';
+  background-color: #ff6600;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Open Sans";
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+  }
+
+  .gallery img {
+    display: none;
+  }
+
+  .gallery .main-image img {
+    display: block;
+    width: 100%;
+  }
+
+  .product-info {
+    text-align: center;
+  }
+  .video-content {
+    flex-direction: column;
+  }
+
+  .video-content iframe {
+    width: 100%;
+    height: auto;
+  }
 }
