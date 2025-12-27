@@ -64,6 +64,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
   nav {
     width: 100%;
     a {
