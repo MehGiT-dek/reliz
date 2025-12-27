@@ -79,6 +79,14 @@ header {
   .share3 {
     position: relative;
   }
+
+  .share3 h2 {
+    text-transform: capitalize;
+  }
+
+  .share3 .shun {
+    cursor: pointer;
+  }
   .overlay {
     position: absolute;
     left: 50%;
